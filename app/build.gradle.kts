@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace = "com.example.helloworld"
-    compileSdk = 35
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.example.helloworld"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 35
         versionCode = (project.findProperty("versionBuild") as String?)?.toIntOrNull() ?: 1
         versionName = "1.0"
